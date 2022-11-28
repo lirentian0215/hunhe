@@ -77,10 +77,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      use:
-      - a
-      - b
-      - c
     url: http://www.gstatic.com/generate_204
     interval: 180
     lazy: true
