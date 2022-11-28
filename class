@@ -81,6 +81,9 @@ proxy-groups:
       - a
       - b
       - c
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    lazy: true
   - name: ♻️ 自动选择
     type: select
     use:
