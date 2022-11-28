@@ -47,9 +47,9 @@ proxy-groups:
   - name: GROUP🗂️
     type: select
     use:
-      - 1
-      - 2
-      - 3
+      - a
+      - b
+      - c
     url: http://www.gstatic.com/generate_204
     interval: 180
     lazy: true
@@ -60,18 +60,18 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - 1
-      - 2
-      - 3
+      - a
+      - b
+      - c
 
   - name: FALLBACK ♻️
     type: fallback
     url: 'http://connectivitycheck.gstatic.com/generate_204'
     interval: 300
     use:
-      - 1
-      - 2
-      - 3
+      - a
+      - b
+      - c
       
   - name: LOAD-BALANCE ☂
     type: load-balance
@@ -79,12 +79,12 @@ proxy-groups:
     url: 'http://connectivitycheck.gstatic.com/generate_204'
     interval: 300
     use:
-      - 1
-      - 2
-      - 3
+      - a
+      - b
+      - c
 
 proxy-providers:
-  1:
+  a:
     type: http
     url: https://raw.githubusercontent.com/ali322/OSCN/52b6b3bab8d15452290edbd0f33ee8510b297163/screenshot/clash-pro.yml
     path: ./SG.yaml
@@ -94,7 +94,7 @@ proxy-providers:
       lazy: true
       url: 'http://connectivitycheck.gstatic.com/generate_204'
       
-  2:
+  b:
     type: http
     url: https://raw.githubusercontent.com/Ros-ua/hzcloud/master/trojan
     path: ./ID.yaml
@@ -104,7 +104,7 @@ proxy-providers:
       lazy: true
       url: 'http://connectivitycheck.gstatic.com/generate_204'
       
-  3:
+  c:
     type: http
     url: https://raw.githubusercontent.com/Cloud724/c724/9e4d6c89d15ac51bbe8425238eeb71338bf72f43/cloud724.yaml
     path: ./DAY.yaml
