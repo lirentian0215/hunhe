@@ -86,7 +86,7 @@ proxy-groups:
 proxy-providers:
   a:
     type: http
-    url: https://raw.githubusercontent.com/ali322/OSCN/52b6b3bab8d15452290edbd0f33ee8510b297163/screenshot/clash-pro.yml
+    url: https://raw.githubusercontent.com/Cloud724/c724/9e4d6c89d15ac51bbe8425238eeb71338bf72f43/cloud724.yaml
     path: ./SG.yaml
     health-check:
       enable: true
@@ -106,7 +106,7 @@ proxy-providers:
       
   c:
     type: http
-    url: https://raw.githubusercontent.com/Cloud724/c724/9e4d6c89d15ac51bbe8425238eeb71338bf72f43/cloud724.yaml
+    url: https://raw.githubusercontent.com/Ros-ua/hzcloud/13e97b2ec4e94365ea468ba64b816cd6d1cf3b6b/trojan
     path: ./DAY.yaml
     health-check:
       enable: true
