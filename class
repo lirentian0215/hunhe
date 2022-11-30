@@ -106,7 +106,7 @@ proxy-providers:
       
   c:
     type: http
-    url: https://raw.githubusercontent.com/Ros-ua/hzcloud/13e97b2ec4e94365ea468ba64b816cd6d1cf3b6b/trojan
+    url: https://raw.githubusercontent.com/Ros-ua/hzcloud/master/trojan
     path: ./c.yaml
     health-check:
       enable: true
