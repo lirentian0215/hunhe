@@ -44,7 +44,7 @@ proxy-groups:
     interval: 180
     lazy: true
       
-- name: BEST-PING🔥
+  - name: BEST-PING🔥
     type: url-test
     url: 'http://connectivitycheck.gstatic.com/generate_204'
     interval: 300
@@ -54,7 +54,7 @@ proxy-groups:
       - b
       - c
 
-- name: GROUP🗂️
+  - name: GROUP🗂️
     type: select
     use:
       - a
