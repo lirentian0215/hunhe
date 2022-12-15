@@ -96,7 +96,7 @@ proxy-providers:
       
   b:
     type: http
-    url: https://raw.githubusercontent.com/Cloud724/c724/main/cloud724.yaml
+    url: https://raw.githubusercontent.com/lirentian0215/clas/main/cla
     path: ./b.yaml
     health-check:
       enable: true
