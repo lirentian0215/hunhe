@@ -96,7 +96,7 @@ proxy-providers:
       
   b:
     type: http
-    url: https://raw.githubusercontent.com/lirentian0215/clas/main/cla
+    url: https://raw.githubusercontent.com/lirentian0215/suibian/main/kuai
     path: ./b.yaml
     health-check:
       enable: true
